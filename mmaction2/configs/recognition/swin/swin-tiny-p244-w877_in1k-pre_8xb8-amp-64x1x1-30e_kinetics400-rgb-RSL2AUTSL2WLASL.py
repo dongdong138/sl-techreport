@@ -166,5 +166,5 @@ default_hooks = dict(
 #   - `enable` means enable scaling LR automatically
 #       or not by default.
 #   - `base_batch_size` = (8 GPUs) x (8 samples per GPU).
-auto_scale_lr = dict(enable=True, base_batch_size=1)
+auto_scale_lr = dict(enable=True, base_batch_size=64)
 work_dir = '/kaggle/working/sl-techreport/mmaction2/work_dirs/swin-tiny-RSL2AUTSL2WLASL'
