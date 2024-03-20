@@ -47,7 +47,7 @@ data_root_test = '/kaggle/input/autsl/test'
 ann_file_train = '/kaggle/working/sl-techreport/mmaction2/data/train.csv'
 ann_file_val = '/kaggle/working/sl-techreport/mmaction2/data/val.csv'
 ann_file_test = '/kaggle/working/sl-techreport/mmaction2/data/test.csv'
-load_from = '/kaggle/working/sl-techreport/mmaction2/pretrain/swin_tiny_patch244_window877_kinetics400_1k.pth'
+load_from = '/kaggle/input/pretrained/swin_tiny_patch244_window877_kinetics400_1k.pth'
 
 file_client_args = dict(io_backend='disk')
 train_pipeline = [
